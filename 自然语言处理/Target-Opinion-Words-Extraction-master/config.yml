@@ -1,0 +1,16 @@
+dataset: 14res
+max_size: 30000
+min_freq: 1
+val_rate: 0.2
+glove_path: ./data/glove.840B.300d.txt
+embed_size: 300
+bio_embed_size: 100
+hidden_size: 300
+num_layers: 1
+dropout: 0.3
+bidirectional: True
+l2_reg: 0.0001
+num_epoches: 40
+batch_size: 64
+learning_rate: 0.0001
+gpu: 0
